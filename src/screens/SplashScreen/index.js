@@ -57,7 +57,7 @@ const SplashScreen = ({ navigation }) => {
         return Animated.sequence([
             // 1. từ trái -> phải
             Animated.timing(girlPosLeft, {
-                toValue: 10,
+                toValue: 0,
                 duration: 700,
                 easing: Easing.ease,
             }),
